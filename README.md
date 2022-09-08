@@ -5,4 +5,4 @@
 ![971ba565-a17a-4a78-b74e-ab68ff60a9e7](https://user-images.githubusercontent.com/62391659/189189713-dc4e94fc-69d2-4bfe-a86e-3f87ff2c34c6.jpg)
 
 
-###Projeto produzido durante o nível 5 do programa Explorer, oferecido pela Rocketseat. Neste projeto foi iniciado o domínio do DOM e prática com funções, eventos e lógica. Eu incrementei o projeto com uma funcionalidade de dicas para o usuário.
+#Projeto produzido durante o nível 5 do programa Explorer, oferecido pela Rocketseat. Neste projeto foi iniciado o domínio do DOM e prática com funções, eventos e lógica. Eu incrementei o projeto com uma funcionalidade de dicas para o usuário.
