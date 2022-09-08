@@ -1,0 +1,145 @@
+:root{
+    font-size: 62.5%;
+
+    --ff-primary:  'DM Sans', sans-serif;
+    --ff-secondary: 'Montserrat', sans-serif;
+
+    --fc-primary: hsla(240, 27%, 28%, 1);
+    --fc-secondary: hsla(238, 27%, 28%, 0.8);
+    --fc-secondary-white: #FFFFFF;
+
+    --bg-primary: linear-gradient(287.56deg, #C2E9FB 0%, #A1C4FD 100%);
+    --bg-secondary: #FFFFFF;
+    --bg-button: #7879F1;
+    --bg-button-hover: #5d5df1;
+    --bg-input: #DCE2E9;
+
+    --fs-primary: 2.4rem;
+    --fs-secondary: 1.6rem;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+
+    font-size: var(--ff-secondary);
+
+    background: var(--bg-primary);
+
+    display: grid;
+    align-items: center;
+}
+
+main{
+    width: min(42.8rem, 90%);
+    height: 27.3rem;
+    padding: 4.8rem 6.4rem 6.4rem;
+
+    margin: 0 auto  ;
+
+
+    text-align: center;
+    background: var(--bg-secondary);
+    box-shadow: 0px .2rem 4rem rgba(0, 0, 0, 0.1);
+    border-radius: .6rem;
+}
+
+.hide{
+    display: none;
+}
+
+
+/*screen1*/
+
+h1{
+    font-size: var(--fs-primary);
+    line-height: 2.9rem;
+
+    color: var(--fc-primary);
+
+    font-family: var(--ff-primary);
+    font-weight: 600;
+
+    margin-bottom: 1.6rem;
+}
+p{
+    line-height: 2.4rem;
+    font-family: var(--ff-secondary);
+   
+    color: var(--fc-secondary);
+
+    margin-bottom: 4.8rem;
+}
+
+form{
+    display: flex;
+
+    justify-content: center;
+}
+
+input, button{
+    height: 5.3rem;
+
+    padding: 1.6rem;
+
+    border: none;
+}
+
+input{
+    width: 6rem;
+   
+   border-radius: .4rem 0 0 .4rem;
+
+   background: var(--bg-input);
+
+   line-height: 2.1rem;
+   color: var(--fc-primary);
+   font-family: var(--ff-secondary);
+
+}
+
+button{
+    width: 8.2rem;
+
+    border-radius: 0 .4rem .4rem 0;
+    background: var(--bg-button);
+
+
+
+    color: var(--fc-secondary-white);
+    font-family: var(--ff-primary);
+    font-weight: 600;
+
+    transition: 100ms;
+}
+
+button:hover{
+    background: var(--bg-button-hover);
+}
+
+
+h2{
+font-family: var(--ff-secondary);
+font-weight: 400;
+font-size: var(--fs-primary);
+line-height: 150%;
+
+
+color: var(--fc-primary);
+
+margin-bottom: 3.3rem;
+}
+.screen2 button{
+    width: 16.6rem;
+
+    border-radius: .4rem;
+}
+
