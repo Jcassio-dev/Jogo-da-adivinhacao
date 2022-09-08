@@ -77,6 +77,16 @@ p{
     color: var(--fc-secondary);
 
     margin-bottom: 4.8rem;
+
+}
+
+span{
+    line-height: 2.4rem;
+    font-family: var(--ff-secondary);
+   
+    color: var(--fc-secondary);
+
+
 }
 
 form{
@@ -143,3 +153,21 @@ margin-bottom: 3.3rem;
     border-radius: .4rem;
 }
 
+.box-dica{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: .3rem
+}
+#dica{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+label{
+    font-family: var(--ff-secondary);
+    color: var(--fc-secondary);
+
+    font-size: var(--ff-secondary);
+}

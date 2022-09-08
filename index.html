@@ -15,15 +15,20 @@
         <div class="screen1 ">
             <h1>Jogo da Adivinhação</h1>
             <p>Adivinhe o número de 0 a 10</p>
+            <span></span>
         <form>
             <input id= "inputNumber" type="number">
             <button id="btnTry">Tentar</button>
         </form>
+        <div class="box-dica">
+        <input type="checkbox" id="dica"> 
+        <label for="dica">Quero receber dicas</label>
+        </div>
     </div>
 
 
         <div class="screen2 hide">
-            <h2>Acertou em <span class="tentativas"></span> tentativas!</h2>
+            <h2></h2>
 
             <button id="btnReset">Jogar novamente</button>
         </div>
